@@ -28,7 +28,7 @@ Running specs
 All prerequisites can be installed with [Homebrew](http://brew.sh).  After installing Homebrew, execute:
 
 ```shell
-$ brew install zmq rabbitmq redis mongodb
+$ brew install rabbitmq redis mongodb
 ```
 
 After installation of each server, Homebrew should print further instructions. 

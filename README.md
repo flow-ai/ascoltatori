@@ -245,26 +245,6 @@ var settings = {
 ascoltatori.build(settings, function (err, ascoltatore) {
   // ...
 });
-```
-
-### ZeroMQ
-
-```javascript
-var ascoltatori = require('ascoltatori');
-var settings = {
-  type: 'zmq',
-  json: false,
-  zmq: require("zeromq"),
-  port: "tcp://127.0.0.1:33333",
-  controlPort: "tcp://127.0.0.1:33334",
-  delay: 10
-};
-
-ascoltatori.build(settings, function (err, ascoltatore) {
-  // ...
-});
-```
-
 
 ### QlobberFSQ
 
@@ -350,7 +330,6 @@ The following debug flags are supported:
 * `ascoltatori:mqtt`
 * `ascoltatori:prefix`
 * `ascoltatori:redis`
-* `ascoltatori:zmq`
 * `ascoltatori:ee2`
 * `ascoltatori:filesystem`
 * `ascoltatori:kafka`

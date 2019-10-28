@@ -1,7 +1,7 @@
 {
   "name": "ascoltatori",
   "version": "4.3.0",
-  "description": "The pub/sub library for node backed by Redis, MongoDB, AMQP (RabbitMQ), ZeroMQ, Kafka, MQTT (Mosquitto) or just plain node!",
+  "description": "The pub/sub library for node backed by Redis, MongoDB, AMQP (RabbitMQ), Kafka, MQTT (Mosquitto) or just plain node!",
   "main": "index.js",
   "scripts": {
     "test": "mocha --recursive --bail --reporter spec test --globals Promise",
@@ -28,7 +28,6 @@
     "subscribe",
     "pubsub",
     "rabbitmq",
-    "zeromq",
     "0mq",
     "mqtt",
     "amqp",
@@ -67,8 +66,6 @@
   "optionalDependencies": {
     "ioredis": "^2.3.0",
     "msgpack-lite": "^0.1.20",
-    "zmq": "*",
-    "zeromq": "*",
     "amqp": "~0.2.4",
     "amqplib": "~0.5.1",
     "mqtt": "^2.3.0",
